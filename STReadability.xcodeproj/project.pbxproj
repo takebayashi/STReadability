@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246D789E14A54A5F00D98DDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246D789D14A54A5F00D98DDB /* Cocoa.framework */; };
+		246D78A814A54A5F00D98DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246D78A614A54A5F00D98DDB /* InfoPlist.strings */; };
+		246D78AC14A54A6000D98DDB /* STReadability.m in Sources */ = {isa = PBXBuildFile; fileRef = 246D78AB14A54A6000D98DDB /* STReadability.m */; };
+		246D78B814A5629400D98DDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246D789D14A54A5F00D98DDB /* Cocoa.framework */; };
+		246D78BE14A5629400D98DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246D78BC14A5629400D98DDB /* InfoPlist.strings */; };
+		246D78C014A5629400D98DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 246D78BF14A5629400D98DDB /* main.m */; };
+		246D78C414A5629400D98DDB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 246D78C214A5629400D98DDB /* Credits.rtf */; };
+		246D78C714A5629400D98DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 246D78C614A5629400D98DDB /* AppDelegate.m */; };
+		246D78CA14A5629500D98DDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 246D78C814A5629500D98DDB /* MainMenu.xib */; };
+		246D78CF14A562B300D98DDB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246D78CE14A562B300D98DDB /* WebKit.framework */; };
+		2475049E14A6270D004966A5 /* STReadability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246D789A14A54A5F00D98DDB /* STReadability.framework */; };
+		247504A014A6272B004966A5 /* STReadability.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 246D789A14A54A5F00D98DDB /* STReadability.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2475049F14A6271A004966A5 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				247504A014A6272B004966A5 /* STReadability.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		246D789A14A54A5F00D98DDB /* STReadability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STReadability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246D789D14A54A5F00D98DDB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		246D78A014A54A5F00D98DDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		246D78A114A54A5F00D98DDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		246D78A214A54A5F00D98DDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		246D78A514A54A5F00D98DDB /* STReadability-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STReadability-Info.plist"; sourceTree = "<group>"; };
+		246D78A714A54A5F00D98DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		246D78A914A54A6000D98DDB /* STReadability-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STReadability-Prefix.pch"; sourceTree = "<group>"; };
+		246D78AA14A54A6000D98DDB /* STReadability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STReadability.h; sourceTree = "<group>"; };
+		246D78AB14A54A6000D98DDB /* STReadability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STReadability.m; sourceTree = "<group>"; };
+		246D78B614A5629400D98DDB /* STReadabilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STReadabilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		246D78BB14A5629400D98DDB /* STReadabilityDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STReadabilityDemo-Info.plist"; sourceTree = "<group>"; };
+		246D78BD14A5629400D98DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		246D78BF14A5629400D98DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		246D78C114A5629400D98DDB /* STReadabilityDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STReadabilityDemo-Prefix.pch"; sourceTree = "<group>"; };
+		246D78C314A5629400D98DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		246D78C514A5629400D98DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		246D78C614A5629400D98DDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		246D78C914A5629500D98DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		246D78CE14A562B300D98DDB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246D789614A54A5F00D98DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D789E14A54A5F00D98DDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246D78B314A5629400D98DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475049E14A6270D004966A5 /* STReadability.framework in Frameworks */,
+				246D78CF14A562B300D98DDB /* WebKit.framework in Frameworks */,
+				246D78B814A5629400D98DDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246D788E14A54A5F00D98DDB = {
+			isa = PBXGroup;
+			children = (
+				246D78A314A54A5F00D98DDB /* STReadability */,
+				246D78B914A5629400D98DDB /* STReadabilityDemo */,
+				246D789C14A54A5F00D98DDB /* Frameworks */,
+				246D789B14A54A5F00D98DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246D789B14A54A5F00D98DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246D789A14A54A5F00D98DDB /* STReadability.framework */,
+				246D78B614A5629400D98DDB /* STReadabilityDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246D789C14A54A5F00D98DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246D789D14A54A5F00D98DDB /* Cocoa.framework */,
+				246D789F14A54A5F00D98DDB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		246D789F14A54A5F00D98DDB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246D78A014A54A5F00D98DDB /* AppKit.framework */,
+				246D78A114A54A5F00D98DDB /* CoreData.framework */,
+				246D78A214A54A5F00D98DDB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		246D78A314A54A5F00D98DDB /* STReadability */ = {
+			isa = PBXGroup;
+			children = (
+				246D78AA14A54A6000D98DDB /* STReadability.h */,
+				246D78AB14A54A6000D98DDB /* STReadability.m */,
+				246D78A414A54A5F00D98DDB /* Supporting Files */,
+			);
+			path = STReadability;
+			sourceTree = "<group>";
+		};
+		246D78A414A54A5F00D98DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				246D78A514A54A5F00D98DDB /* STReadability-Info.plist */,
+				246D78A614A54A5F00D98DDB /* InfoPlist.strings */,
+				246D78A914A54A6000D98DDB /* STReadability-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		246D78B914A5629400D98DDB /* STReadabilityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				246D78CE14A562B300D98DDB /* WebKit.framework */,
+				246D78C514A5629400D98DDB /* AppDelegate.h */,
+				246D78C614A5629400D98DDB /* AppDelegate.m */,
+				246D78C814A5629500D98DDB /* MainMenu.xib */,
+				246D78BA14A5629400D98DDB /* Supporting Files */,
+			);
+			path = STReadabilityDemo;
+			sourceTree = "<group>";
+		};
+		246D78BA14A5629400D98DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				246D78BB14A5629400D98DDB /* STReadabilityDemo-Info.plist */,
+				246D78BC14A5629400D98DDB /* InfoPlist.strings */,
+				246D78BF14A5629400D98DDB /* main.m */,
+				246D78C114A5629400D98DDB /* STReadabilityDemo-Prefix.pch */,
+				246D78C214A5629400D98DDB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		246D789714A54A5F00D98DDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		246D789914A54A5F00D98DDB /* STReadability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246D78AF14A54A6000D98DDB /* Build configuration list for PBXNativeTarget "STReadability" */;
+			buildPhases = (
+				246D789514A54A5F00D98DDB /* Sources */,
+				246D789614A54A5F00D98DDB /* Frameworks */,
+				246D789714A54A5F00D98DDB /* Headers */,
+				246D789814A54A5F00D98DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STReadability;
+			productName = STReadability;
+			productReference = 246D789A14A54A5F00D98DDB /* STReadability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		246D78B514A5629400D98DDB /* STReadabilityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246D78CB14A5629500D98DDB /* Build configuration list for PBXNativeTarget "STReadabilityDemo" */;
+			buildPhases = (
+				246D78B214A5629400D98DDB /* Sources */,
+				246D78B314A5629400D98DDB /* Frameworks */,
+				246D78B414A5629400D98DDB /* Resources */,
+				2475049F14A6271A004966A5 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STReadabilityDemo;
+			productName = STReadabilityDemo;
+			productReference = 246D78B614A5629400D98DDB /* STReadabilityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246D789014A54A5F00D98DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 246D789314A54A5F00D98DDB /* Build configuration list for PBXProject "STReadability" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 246D788E14A54A5F00D98DDB;
+			productRefGroup = 246D789B14A54A5F00D98DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246D789914A54A5F00D98DDB /* STReadability */,
+				246D78B514A5629400D98DDB /* STReadabilityDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246D789814A54A5F00D98DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D78A814A54A5F00D98DDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246D78B414A5629400D98DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D78BE14A5629400D98DDB /* InfoPlist.strings in Resources */,
+				246D78C414A5629400D98DDB /* Credits.rtf in Resources */,
+				246D78CA14A5629500D98DDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246D789514A54A5F00D98DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D78AC14A54A6000D98DDB /* STReadability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246D78B214A5629400D98DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D78C014A5629400D98DDB /* main.m in Sources */,
+				246D78C714A5629400D98DDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		246D78A614A54A5F00D98DDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246D78A714A54A5F00D98DDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		246D78BC14A5629400D98DDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246D78BD14A5629400D98DDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		246D78C214A5629400D98DDB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246D78C314A5629400D98DDB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		246D78C814A5629500D98DDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246D78C914A5629500D98DDB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		246D78AD14A54A6000D98DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		246D78AE14A54A6000D98DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		246D78B014A54A6000D98DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STReadability/STReadability-Prefix.pch";
+				INFOPLIST_FILE = "STReadability/STReadability-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		246D78B114A54A6000D98DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STReadability/STReadability-Prefix.pch";
+				INFOPLIST_FILE = "STReadability/STReadability-Info.plist";
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		246D78CC14A5629500D98DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STReadabilityDemo/STReadabilityDemo-Prefix.pch";
+				INFOPLIST_FILE = "STReadabilityDemo/STReadabilityDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		246D78CD14A5629500D98DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STReadabilityDemo/STReadabilityDemo-Prefix.pch";
+				INFOPLIST_FILE = "STReadabilityDemo/STReadabilityDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246D789314A54A5F00D98DDB /* Build configuration list for PBXProject "STReadability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246D78AD14A54A6000D98DDB /* Debug */,
+				246D78AE14A54A6000D98DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246D78AF14A54A6000D98DDB /* Build configuration list for PBXNativeTarget "STReadability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246D78B014A54A6000D98DDB /* Debug */,
+				246D78B114A54A6000D98DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246D78CB14A5629500D98DDB /* Build configuration list for PBXNativeTarget "STReadabilityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246D78CC14A5629500D98DDB /* Debug */,
+				246D78CD14A5629500D98DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246D789014A54A5F00D98DDB /* Project object */;
+}
